@@ -13,6 +13,7 @@ def fib(n: Int): Int = {
 }
 
 def fib2(n: Int): Int = {
+  // TODO: improve the name of parameters acc1 and acc2
   @annotation.tailrec
   def loop(i: Int, acc1: Int, acc2: Int): Int =
     if (i >= n) acc1
